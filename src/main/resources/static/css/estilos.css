@@ -1,0 +1,282 @@
+.parrafoInformativo{
+    font-size: 22px;
+    color: black;
+}
+
+*{
+    background-color: black
+}
+
+#encabezado {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 8%;
+    width: 100%;
+    background-color: #496D8D;
+    color: white;
+}
+
+#menu {
+    position: absolute;
+    top: 8%;
+    left: 0;
+    height: 4%;
+    width: 100%;
+    background-color: cadetblue;
+    color: black;
+}
+
+#menu a:visited {
+    color: navy;
+}
+
+#menu a:hover {
+    background-color: green;
+    color: white;
+}
+
+#barraLateral {
+    position: absolute;
+    top: 12%;
+    left: 0;
+    height: 88%;
+    width: 10%;
+    background-color: black;
+    color: white;
+}
+
+#barraLateral h3, h2{
+            text-align: center; 
+            
+        }
+
+#contenido {
+    position: absolute;
+    top: 15%;
+    left: 20%;
+    height: 85%;
+    width: 80%;
+    background-color: black;
+    color: white;
+    overflow: auto;
+}
+
+#contenido p {
+    max-width: 100%; 
+    margin: 0; 
+    padding: 10px; 
+    box-sizing: border-box; 
+}
+
+#parrafo1{
+    text-align: left;
+    color: coral;
+    word-wrap: break-word;
+    font-size: 30px;
+}
+#parrafo2{
+    text-align: center;
+    color: red;
+    word-wrap: break-word;
+    font-size: 15px;
+}
+#parrafo3{
+    text-align: right;
+    color: white;
+    word-wrap: break-word;
+    font-size: 35px;
+}
+#parrafo4{
+    text-align: left;
+    color: beige;
+    word-wrap: break-word;
+    font-size: 50px;
+}
+
+
+#contenido2 {
+    position: absolute;
+    top: 16%;
+    left: 2%;
+    right: 2%;
+    height: 81%;
+    width: 96%;
+    background-color: gainsboro;
+    color: gray;
+    overflow: auto;
+    font-size: 25px;
+}
+
+#contenido3 {
+    position: absolute;
+    top: 16%;
+    left: 2%;
+    right: 2%;
+    height: 81%;
+    width: 98%;
+    background-color: gainsboro;
+    color: gray;
+    overflow: auto;
+    font-size: 25px;
+}
+
+#contenido4 {
+    position: absolute;
+    top: 16%;
+    left: 2%;
+    right: 2%;
+    height: 81%;
+    width: 96%;
+    background-color: black;
+    color: white;
+    overflow: auto;
+    font-size: 24px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+#contenido4 form {
+    width: 100%; 
+}
+
+#contenido4 input[type="text"],
+#contenido4 input[type="email"],
+#contenido4 input[type="email"],
+#contenido4 input[type="tel"],
+#contenido4 input[type="password"],
+#contenido4 textarea {
+    background-color: white; 
+    color: black; 
+    border: none; 
+    padding: 10px; 
+}
+
+#contenido4 #button {
+    background-color: gray;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+
+#piePagina {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2%;
+    width: 100%;
+    background-color: 0;
+    color: white;
+    text-align: center;
+}
+
+.centered-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.centered-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.centered-image figcaption {
+    text-align: center;
+    margin-top: 8px;
+    font-style: italic;
+}
+
+
+.gallery {
+    display: grid;
+    gap: 70px;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    border-color: red;
+}
+
+.gallery figure {
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+#contenido8 {
+    position: absolute;
+    top: 20%;
+    left: 2%;
+    right: 2%;
+    height: 30%;
+    width: 96%;
+    background-color: black;
+    color: white;
+    overflow: auto;
+    font-size: 20px;
+}
+
+#contenido5 {
+    position: absolute;
+    top: 20%;
+    left: 2%;
+    right: 2%;
+    height: 30%;
+    width: 96%;
+    background-color: black;
+    color: white; 
+    overflow: auto;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center; 
+}
+
+#contenido5 h2 {
+    margin: 0;
+    padding: 0.5em 0;
+}
+
+#contenido5 p {
+    margin: 0.5em 0;
+    padding: 0 1em;
+    font-size: 50px;
+}
+#contenido6 {
+    position: absolute;
+    top: 45%;
+    left: 35%;
+    right: 2%;
+    height: 45%;
+    width: 32%;
+    background-color: yellow;
+    color: gray;
+    overflow: auto;
+    font-size: 25px;
+}
+
+#contenido7 {
+    position: absolute;
+    top: 55%;
+    left: 30%;
+    right: 2%;
+    height: 42%;
+    width: 45%;
+    background-color: black;
+    color: gray;
+    overflow: auto;
+    font-size: 25px;
+}
