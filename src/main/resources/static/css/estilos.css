@@ -47,9 +47,9 @@
 }
 
 #barraLateral h3, h2{
-            text-align: center; 
-            
-        }
+    text-align: center;
+
+}
 
 #contenido {
     position: absolute;
@@ -63,10 +63,10 @@
 }
 
 #contenido p {
-    max-width: 100%; 
-    margin: 0; 
-    padding: 10px; 
-    box-sizing: border-box; 
+    max-width: 100%;
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
 }
 
 #parrafo1{
@@ -132,13 +132,13 @@
     color: white;
     overflow: auto;
     font-size: 24px;
-    display: flex; 
-    justify-content: center; 
-    align-items: center; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #contenido4 form {
-    width: 100%; 
+    width: 100%;
 }
 
 #contenido4 input[type="text"],
@@ -147,10 +147,10 @@
 #contenido4 input[type="tel"],
 #contenido4 input[type="password"],
 #contenido4 textarea {
-    background-color: white; 
-    color: black; 
-    border: none; 
-    padding: 10px; 
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 10px;
 }
 
 #contenido4 #button {
@@ -214,13 +214,13 @@
     object-fit: cover;
 }
 
-#contenido8 {
+#contenido9 {
     position: absolute;
     top: 20%;
     left: 2%;
-    right: 2%;
+    right: 0%;
     height: 30%;
-    width: 96%;
+    width: 98%;
     background-color: black;
     color: white;
     overflow: auto;
@@ -235,14 +235,14 @@
     height: 30%;
     width: 96%;
     background-color: black;
-    color: white; 
+    color: white;
     overflow: auto;
     font-size: 25px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    text-align: center; 
+    text-align: center;
 }
 
 #contenido5 h2 {
@@ -279,4 +279,32 @@
     color: gray;
     overflow: auto;
     font-size: 25px;
+}
+
+#contenido8 {
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    height: 82%;
+    width: 90%;
+    background-color: black;
+    color: white;
+    overflow: auto;
+}
+
+#contenido8 figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#contenido8 img {
+    max-width: 100%;
+    height: auto;
+}
+
+#contenido8 figcaption {
+    margin-top: 10px;
+    font-style: italic;
 }
